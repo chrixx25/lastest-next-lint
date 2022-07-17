@@ -6,6 +6,9 @@
 4. npm install --save-dev eslint-config-prettier = avoid conflict between eslint and prettier
 5. npm install --save-dev eslint-plugin-prettier = format fix eslint on save
 6. npm install --save-dev eslint-plugin-unused-imports = format fix eslint on save remove unused imports
+7. npx husky-init then npm i
+8. Add this code to pre-commit file inside husky folder "npx lint-staged"
+9. add lint-staged.config.js on root of the project
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
