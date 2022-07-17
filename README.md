@@ -1,3 +1,12 @@
+# HOW TO INSTALL ESLINT
+
+1. npm eslint --save-dev
+2. npx eslint --init = choose arnb
+3. npm install --save-dev prettier
+4. npm install --save-dev eslint-config-prettier = avoid conflict between eslint and prettier
+5. npm install --save-dev eslint-plugin-prettier = format fix eslint on save
+6. npm install --save-dev eslint-plugin-unused-imports = format fix eslint on save remove unused imports
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -32,4 +41,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
 # lastest-next-lint
