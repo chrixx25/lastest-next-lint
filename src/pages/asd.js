@@ -1,5 +1,5 @@
 import React from "react";
 
-const asd = () => <div>asd</div>;
+const asd = () => <div>hello</div>;
 
 export default asd;
